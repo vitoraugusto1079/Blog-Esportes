@@ -1,4 +1,4 @@
-<h1>Aplicação criada por Vítor Augusto e Vitor Gabriel</h1>
+<h1>Aplicação criada por <br>Vítor Augusto e Vitor Gabriel</h1>
 
 
 
