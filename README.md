@@ -1,7 +1,7 @@
 <h1>Aplicação criada por <br>Vítor Augusto e Vitor Gabriel</h1>
 
-#Estrutura de criação do banco
-CREATE TABLE posts (
+<br><h1>Estrutura de criação do banco</h1>
+<br>CREATE TABLE posts (
   id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
   title TEXT NOT NULL,
   content TEXT NOT NULL,
@@ -11,7 +11,7 @@ CREATE TABLE posts (
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
-CREATE TABLE comments (
+<br>CREATE TABLE comments (
   id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
   post_id UUID REFERENCES posts(id) ON DELETE CASCADE,
   author TEXT NOT NULL,
